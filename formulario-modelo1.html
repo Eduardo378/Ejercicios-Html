@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,26 @@
 <body>
     <h1>Profile Contact Form</h1>
 
-    <section>
-        <div class="contenedor">
-            <div class="seccion1">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <img src="assets/2993771_github_social media_icon.png" alt="github-image" class="img-github">
-                <div class="presentacion">
-                    <p>José Leiter</p>
-                    <p>Diseñador grafico</p>
-                    <p>José Leiter</p>
-                    <p>Diseñador grafico</p>
-                </div>
+    <section class="contenedor">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="assets/2993771_github_social media_icon.png" alt="github-image" width="100px" height="100px">
+            <div style="display:inline-block">
+                <p class="parrafo">José Leiter</p>
+                <p class="parrafo">Diseñador grafico</p>
+                <p class="parrafo">+58 424 364 00 20</p>
+                <p class="parrafo">Mail@example.com</p>
+				<a target="_blank" href="https://www.facebook.com/EduBiiersackk/" class="enlaceFb"><i class="fab fa-facebook-f"></i></a>
+				<a target="_blank" href="https://www.instagram.com/edubiiersackk2803/" class="enlaceIn"><i class="fab fa-instagram"></i></a>
+				<a target="_blank" href="https://github.com/Eduardo378" class="enlaceGh"><i class="fab fa-github"></i></a>
             </div>
-        </div>
-        <hr>
+            <hr>
         <div class="seccion2">
             <h2>Send A Message To Me</h2>
             <form action="#" method="post">
-                <input type="text" name="nombre" placeholder="First name">
-                <input type="number" name="numero-tlf" placeholder="Mobile Number">
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="message" cols="15" rows="3" class="elemento"></textarea>
+                <input type="text" name="nombre" placeholder="First name" class="elemento" required>
+                <input type="number" name="numero-tlf" placeholder="Mobile Number" class="elemento" required>
+                <input type="email" name="email" placeholder="Email" class="elemento" required>
+                <textarea name="message" cols="15" rows="3" class="elemento" required></textarea>
                 <input type="submit" value="Enviar" class="elemento">
             </form>
         </div>

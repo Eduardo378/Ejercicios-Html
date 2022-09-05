@@ -1,31 +1,101 @@
-h1{
-    text-align:center
+body{
+    background-image:url(../assets/mesas-escritorio-1024x683.jpg);
+    background-size:100%;
 }
 
-section{
-    padding:20px;
-    width:25%;
-    border:1px solid black;
-    margin:auto;
-}
-
-.seccion1, .seccion2{
-    margin:10px;
-}
-
-.seccion2 input, textarea{
-    width:50%;
-    padding:5px;
-    margin:5px;
-}
-
-.presentacion{ 
-    display:inline-block;
-    margin-right:20px;
+.fondo{
     width:100%;
+    height:100%;
+    position:absolute;
 }
 
-.img-github{
-    width:30px;
-    height:30px;
+p, h2{
+    color:rgba(0, 0, 0, .8);
+}
+
+h1, h2{
+    position: relative;
+    text-align:center;
+    margin:0px 10px 10px 0px;
+}
+
+p{
+    font-size:17px;
+}
+
+.contenedor{
+    position:relative;
+    background:#717D7E;
+    width: 35%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.contenedor:hover{
+    border:2px solid rgba(0, 0, 0, 0.514);
+    transition:all .1s;
+}
+
+.parrafo{
+    margin:10px 0; 
+    margin-left:20px; 
+}
+
+.seccion2{
+    padding:10px 0px 12px 0px;
+}
+
+.seccion2 .elemento{
+    width:99%;
+    padding:7px;
+    margin:5px 17px 0px 0px;
+    padding:10px 0px 10px 5px;
+}
+
+.seccion2 input[type="submit"]{
+    width:100.5%
+}
+
+i{
+	font-size:26px;
+    margin-left:20px;
+}
+
+.enlaceFb, .enlaceIn,.enlaceGh{
+	color:#fff;
+}
+
+.enlaceFb:hover{
+	color:#1443C1;
+	transition:all .5s;
+}
+
+.enlaceIn:hover{
+	color:#E1306C;
+	transition:all .5s;
+}
+
+.enlaceGh:hover{
+	color:#171515;
+	transition:all .5s;
+}
+
+.elemento{
+    background:rgba(237, 244, 255, 0.952);
+    border:none;
+    border-radius:2px 2px 0px 0px;
+}
+
+.contenedor input[type="submit"]{
+    background:#1E2227;
+    padding:15px;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+}
+
+.contenedor input[type="submit"]:hover{
+    background:linear-gradient(rgb(61, 59, 59), rgb(52, 53, 53));
+    cursor:pointer;
 }
